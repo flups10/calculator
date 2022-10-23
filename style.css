@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container > h1{
+    text-align: center;
+}
+
+#results{
+    background-color: yellowgreen;
+    text-align: right;
+    padding-right: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.buttons{
+    margin: 5px;
+    border-radius: 10%;
+    box-shadow: 2px 2px;
+    background-color: green;
+}
+
+.buttons:hover{
+    background-color: lightgreen;
+}
+
+.container{
+    background-color: blue;
+    margin: auto;
+    padding-bottom: 20px;
+}
